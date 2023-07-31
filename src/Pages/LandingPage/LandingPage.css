@@ -2,6 +2,7 @@
   display: flex;
   min-height: 100vh;
   overflow: hidden;
+  padding: 50px;
 }
 
 .image {
@@ -10,11 +11,11 @@
 }
 
 .image img {
-  width: 634px;
+  width: 734px;
   margin-left: 130px;
   overflow: hidden;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .informations {
