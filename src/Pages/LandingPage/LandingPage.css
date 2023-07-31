@@ -2,7 +2,6 @@
   display: flex;
   min-height: 100vh;
   overflow: hidden;
-  padding: 30px;
 }
 
 .image {
@@ -27,13 +26,13 @@
 }
 
 .informations h2 {
-  font-size: 60px;
+  font-size: 70px;
   line-height: 80px;
   margin-bottom: 25px;
 }
 
 .informations p {
-  font-size: 20px;
+  font-size: 24px;
   color: rgb(69, 69, 69);
   margin-bottom: 25px;
 }
