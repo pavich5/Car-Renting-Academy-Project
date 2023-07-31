@@ -38,7 +38,7 @@
 
 .inputDetails {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -61,7 +61,6 @@
   padding: 5px;
   width: 100%;
   height: 40px;
-  margin-top: 15px;
 }
 
 .enterLocation input::placeholder,
@@ -93,7 +92,6 @@
 @media (max-width: 768px) {
   .FullSearchCard {
     padding: 20px;
-    margin-top: 10px;
   }
 
   .instructions h1 {
