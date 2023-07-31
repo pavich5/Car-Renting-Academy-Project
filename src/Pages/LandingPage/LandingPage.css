@@ -11,7 +11,7 @@
 }
 
 .image img {
-  width: 734px;
+  width: 904px;
   margin-left: 130px;
   overflow: hidden;
   border-radius: 10px;
@@ -27,13 +27,13 @@
 }
 
 .informations h2 {
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 100px;
+  line-height: 130px;
   margin-bottom: 25px;
 }
 
 .informations p {
-  font-size: 24px;
+  font-size: 30px;
   color: rgb(69, 69, 69);
   margin-bottom: 25px;
 }
@@ -42,8 +42,8 @@
   background-color: #0097e6;
   color: white;
   text-align: center;
-  width: 170px;
-  height: 49px;
+  width: 210px;
+  height: 59px;
   border-radius: 24px;
   border: none;
   cursor: pointer;
