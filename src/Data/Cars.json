@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 1993,
+    "city_mpg": 23,
+    "highway_mpg": 31,
+    "combination_mpg": 26,
+    "cylinders": 4,
+    "displacement": 1.6,
+    "drive": "FWD",
+    "fuel_type": "Gas",
+    "transmission": "M",
+    "class": "Compact Car",
+    "image": "https://cdn.wheel-size.com/thumbs/dd/e6/dde68d0e125752587b82405176249337.jpg",
+    "price_per_day": 50,
+    "availability": [
+      {
+        "location": "Bogdanci",
+        "dates": ["2023-08-10", "2023-08-11", "2023-08-15"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2008,
+    "city_mpg": 27,
+    "highway_mpg": 36,
+    "combination_mpg": 30,
+    "cylinders": 4,
+    "displacement": 1.8,
+    "drive": "FWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Compact Car",
+    "image": "https://www.motortrend.com/uploads/sites/10/2015/11/2011-honda-civic-coupe-lx-auto-angular-front.png",
+    "price_per_day": 55,
+    "availability": [
+      {
+        "location": "Furka",
+        "dates": ["2023-08-11", "2023-08-12", "2023-08-14"]
+      },
+      {
+        "location": "Gevgelija",
+        "dates": ["2023-08-13", "2023-08-15"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2015,
+    "city_mpg": 18,
+    "highway_mpg": 25,
+    "combination_mpg": 20,
+    "cylinders": 6,
+    "displacement": 3.7,
+    "drive": "RWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Sports Car",
+    "image": "https://assets-clean.local-car-finder.com/images/11277/11277_st1280_089.png",
+    "price_per_day": 90,
+    "availability": [
+      {
+        "location": "Bogdanci",
+        "dates": ["2023-08-11", "2023-08-12"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "make": "Nissan",
+    "model": "Sentra",
+    "year": 2019,
+    "city_mpg": 29,
+    "highway_mpg": 37,
+    "combination_mpg": 32,
+    "cylinders": 4,
+    "displacement": 1.8,
+    "drive": "FWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Compact Car",
+    "image": "https://www.motortrend.com/uploads/sites/10/2019/01/2019-nissan-sentra-s-cvt-sedan-angular-front.png",
+    "price_per_day": 60,
+    "availability": [
+      {
+        "location": "Gevgelija",
+        "dates": ["2023-08-10", "2023-08-11", "2023-08-15"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "make": "Chevrolet",
+    "model": "Impala",
+    "year": 2022,
+    "city_mpg": 18,
+    "highway_mpg": 28,
+    "combination_mpg": 22,
+    "cylinders": 6,
+    "displacement": 3.6,
+    "drive": "FWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Sedan",
+    "image": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_low/v1/editorial/vhs/Chevrolet-Impala_0.png",
+    "price_per_day": 75,
+    "availability": [
+      {
+        "location": "Bogdanci",
+        "dates": ["2023-08-12", "2023-08-13"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "make": "Tesla",
+    "model": "Model S",
+    "year": 2021,
+    "city_mpg": 101,
+    "highway_mpg": 102,
+    "combination_mpg": 101,
+    "cylinders": 0,
+    "displacement": 0,
+    "drive": "AWD",
+    "fuel_type": "Electric",
+    "transmission": "A",
+    "class": "Electric Car",
+    "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/667b4e31-d10d-4509-bc02-a593f5df908e/f041ba64-318c-4dd5-9a5f-b3daffa0a743.png",
+    "price_per_day": 150,
+    "availability": [
+      {
+        "location": "Gevgelija",
+        "dates": ["2023-08-12", "2023-08-13", "2023-08-14"]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2020,
+    "city_mpg": 25,
+    "highway_mpg": 34,
+    "combination_mpg": 28,
+    "cylinders": 4,
+    "displacement": 2.0,
+    "drive": "RWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Luxury Car",
+    "image": "https://images.dealer.com/evox/perspectives/10305/png/10305_31.png",
+    "price_per_day": 120,
+    "availability": [
+      {
+        "location": "Furka",
+        "dates": ["2023-08-13", "2023-08-14"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2008,
+    "city_mpg": 27,
+    "highway_mpg": 36,
+    "combination_mpg": 30,
+    "cylinders": 4,
+    "displacement": 1.8,
+    "drive": "FWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Compact Car",
+    "image": "https://www.motortrend.com/uploads/sites/10/2015/11/2011-honda-civic-coupe-lx-auto-angular-front.png",
+    "price_per_day": 55,
+    "availability": [
+      {
+        "location": "Bogdanci",
+        "dates": ["2023-08-13", "2023-08-14", "2023-08-15"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2020,
+    "city_mpg": 29,
+    "highway_mpg": 41,
+    "combination_mpg": 34,
+    "cylinders": 4,
+    "displacement": 2.5,
+    "drive": "FWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Midsize Car",
+    "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/8760bf48-c1a5-42f7-a83b-1cd39e2efbec/57ee2adf-a4a3-4757-8f50-6d85fcf5a351.png",
+    "price_per_day": 70,
+    "availability": [
+      {
+        "location": "Furka",
+        "dates": ["2023-08-10", "2023-08-11"]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "city_mpg": 20,
+    "highway_mpg": 26,
+    "combination_mpg": 23,
+    "cylinders": 6,
+    "displacement": 3.5,
+    "drive": "4WD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Truck",
+    "image": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/f5285310-e97b-47b3-9482-096b8d691fca/3fad6648-6ec5-436f-b51c-beb9c7cb43c7.png",
+    "price_per_day": 100,
+    "availability": [
+      {
+        "location": "Gevgelija",
+        "dates": ["2023-08-10", "2023-08-14", "2023-08-15"]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "make": "Audi",
+    "model": "A4",
+    "year": 2019,
+    "city_mpg": 24,
+    "highway_mpg": 34,
+    "combination_mpg": 27,
+    "cylinders": 4,
+    "displacement": 2.0,
+    "drive": "AWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Luxury Car",
+    "image": "https://www.motortrend.com/uploads/sites/10/2019/03/2019-audi-a4-premium-sedan-angular-front.png",
+    "price_per_day": 130,
+    "availability": [
+      {
+        "location": "Bogdanci",
+        "dates": ["2023-08-11", "2023-08-12", "2023-08-14"]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2022,
+    "city_mpg": 17,
+    "highway_mpg": 25,
+    "combination_mpg": 20,
+    "cylinders": 6,
+    "displacement": 3.6,
+    "drive": "4WD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "SUV",
+    "image": "https://www.cars.com/i/large/in/v2/stock_photos/6e22a4e3-6f7d-43e2-9c77-0d40d217a7bb/14c7a5f1-845d-4694-b963-1541f4fdeb58.png",
+    "price_per_day": 85,
+    "availability": [
+      {
+        "location": "Gevgelija",
+        "dates": ["2023-08-11", "2023-08-13", "2023-08-15"]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2021,
+    "city_mpg": 22,
+    "highway_mpg": 30,
+    "combination_mpg": 25,
+    "cylinders": 4,
+    "displacement": 2.0,
+    "drive": "AWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Luxury Car",
+    "image": "https://images.carexpert.com.au/app/uploads/2021/05/2021-mercedes-benz-e-class-19c0924048-etched-1621817648-s-3555x2073.png",
+    "price_per_day": 160,
+    "availability": [
+      {
+        "location": "Furka",
+        "dates": ["2023-08-10", "2023-08-13", "2023-08-15"]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "make": "Subaru",
+    "model": "Outback",
+    "year": 2022,
+    "city_mpg": 26,
+    "highway_mpg": 33,
+    "combination_mpg": 29,
+    "cylinders": 4,
+    "displacement": 2.5,
+    "drive": "AWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "SUV",
+    "image": "https://di-uploads-pod12.dealerinspire.com/wilsonvillesubaru/uploads/2019/10/2022-outback.png",
+    "price_per_day": 80,
+    "availability": [
+      {
+        "location": "Gevgelija",
+        "dates": ["2023-08-10", "2023-08-12", "2023-08-13"]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "make": "Lexus",
+    "model": "RX",
+    "year": 2020,
+    "city_mpg": 20,
+    "highway_mpg": 27,
+    "combination_mpg": 23,
+    "cylinders": 6,
+    "displacement": 3.5,
+    "drive": "AWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Luxury SUV",
+    "image": "https://www.motortrend.com/uploads/sites/10/2019/12/2020-lexus-rx-350-4wd-suv-angular-front.png ",
+    "price_per_day": 140,
+    "availability": [
+      {
+        "location": "Bogdanci",
+        "dates": ["2023-08-11", "2023-08-14", "2023-08-15"]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "make": "Volkswagen",
+    "model": "Golf",
+    "year": 2021,
+    "city_mpg": 29,
+    "highway_mpg": 39,
+    "combination_mpg": 33,
+    "cylinders": 4,
+    "displacement": 1.4,
+    "drive": "FWD",
+    "fuel_type": "Gas",
+    "transmission": "A",
+    "class": "Hatchback",
+    "image": "https://images.carexpert.com.au/app/uploads/2021/04/2021-volkswagen-golf-6-etched-1619074159-s-1040x541.png",
+    "price_per_day": 65,
+    "availability": [
+      {
+        "location": "Furka",
+        "dates": ["2023-08-10", "2023-08-14", "2023-08-15"]
+      }
+    ]
+  }
+]

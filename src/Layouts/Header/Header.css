@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 90px;
+    align-items: center;
+  }
+  
+  header img {
+    width: 120px;
+  }
+  
+  header button {
+    margin-right: 80px;
+    width: 100px;
+    height: 40px;
+    border-radius: 24px;
+    border: none;
+    background-color: white;
+    color: rgb(54, 54, 227);
+    cursor: pointer;
+    margin-left: 300px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding-left: 20px;
+      padding-right: 70px;
+    }
+  
+    header img {
+      width: 120px; 
+    }
+  
+    header button {
+      margin-left: 50px;
+      width: 80px;
+      font-size: 14px;
+    }
+  }
+  

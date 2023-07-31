@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .SignInPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  .container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-group .text-center {
+    text-align: center;
+  }
+  
+  .form-group .text-muted {
+    color: #777;
+  }
+  
+  .form-group .text-muted a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .form-group .text-muted a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-group .create-account-btn {
+    background-color: #dc3545;
+  }
+  
+  .form-group .create-account-btn:hover {
+    background-color: #a71d2a;
+  }
+  
+  .create-account-form {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .create-account-form.active {
+    display: block;
+  }
+  

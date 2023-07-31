@@ -1,0 +1,127 @@
+.LandingPage {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  width: 634px;
+  margin-left: 130px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.informations {
+  overflow: hidden;
+  margin-left: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.informations h2 {
+  font-size: 60px;
+  line-height: 80px;
+  margin-bottom: 25px;
+}
+
+.informations p {
+  font-size: 20px;
+  color: rgb(69, 69, 69);
+  margin-bottom: 25px;
+}
+
+.informations button {
+  background-color: #0097e6;
+  color: white;
+  text-align: center;
+  width: 170px;
+  height: 49px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.carsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+
+.carCatalog {
+  font-size: 50px;
+  text-align: center;
+}
+
+.carsShowing p {
+  text-align: center;
+  font-size: 28px;
+}
+
+.arrows {
+  width: 1350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.arrows button {
+  margin-left: 30px;
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .image img {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    margin-top: 0;
+  }
+
+  .informations {
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .informations h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .informations p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .informations button {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .carsList {
+    margin: 0;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .arrows {
+    width: 100%;
+  }
+}
