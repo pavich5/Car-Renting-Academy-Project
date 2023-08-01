@@ -1,7 +1,7 @@
 // Footer.js
 import './Footer.css';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className="Footer">
@@ -25,10 +25,14 @@ const Footer = () => {
         <nav className="Footer-nav">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to={'/'}>
+              <p>Home</p>
+              </Link>
             </li>
             <li>
-              <a href="#">Cars</a>
+              <Link to={'/'}>
+              <p>Cars</p>
+              </Link>
             </li>
             <li>
               <a href="#">About</a>
