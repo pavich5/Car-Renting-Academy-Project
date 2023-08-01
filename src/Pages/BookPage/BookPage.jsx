@@ -5,6 +5,7 @@ import { Box, Button, Card, CardContent, CardHeader, Divider, Grid, Typography }
 import cars from '../../Data/Cars.json';
 import CarInformationContext from '../../Contex/CarInformationContex';
 import './BookPage.css';
+import { motion } from "framer-motion"
 
 const BookPage = () => {
   const { dropOffDateContex, pickUpDateContex, pickUpLocationContex, dropOffLocationContex } = useContext(CarInformationContext);
@@ -26,7 +27,10 @@ const BookPage = () => {
   const totalPrice = calculateTotalPrice();
 
   return (
-    <div className="BookPage">
+    <motion.div className="BookPage"
+    initial={{ opacity: 0,}}
+    animate={{ opacity: 1,}}
+    transition={{ duration: 0.5 }}>
       <div className="WholeThing">
   <Card>
         <CardHeader title={bookedCar.name} />
@@ -113,7 +117,7 @@ const BookPage = () => {
       </Box>
       </div>
     
-    </div>
+    </motion.div>
   );
 };
 

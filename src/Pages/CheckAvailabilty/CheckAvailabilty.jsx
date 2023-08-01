@@ -4,6 +4,8 @@ import { FaSearch, FaCalendar } from 'react-icons/fa';
 import carsData from '../../Data/Cars.json';
 import RentCar from '../../Components/RentCarCart/RentCartCart';
 import CarInformationContext from '../../Contex/CarInformationContex';
+import { motion } from "framer-motion"
+
 const CheckAvailabilty = () => {
   const [pickUpLocation, setPickUpLocation] = useState();
   const [pickUpDate, setPickUpDate] = useState();
@@ -73,7 +75,10 @@ const CheckAvailabilty = () => {
 
   return (
     <>
-      <div className="CheckAvailabilty">
+      <motion.div className="CheckAvailabilty"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}>
         <div className="FullSearchCard">
           <div className="instructions">
             <h1>Car Hire – Search, Compare & Save</h1>
@@ -134,7 +139,7 @@ const CheckAvailabilty = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       <div className="ShowAvailableCars">
         {showAvailableCars ? (
