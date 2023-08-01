@@ -3,7 +3,7 @@ import './LandingPage.css';
 import carsdata from '../../Data/Cars.json';
 import Car from '../../Components/Car/Car';
 import { Link } from 'react-router-dom';
-import { motion, useViewportScroll, useTransform } from 'framer-motion';
+import { motion, useScroll } from "framer-motion"
 
 const LandingPage = () => {
   const [cars, setCars] = useState(carsdata);
@@ -11,19 +11,7 @@ const LandingPage = () => {
   const carsPerPage = 8;
   const [itemsPerPage, setItemsPerPage] = useState(carsPerPage);
   const carsRef = useRef(null);
-  const { scrollYProgress } = useViewportScroll();
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPercentage = scrollYProgress.current * 100;
-      setScrollProgress(scrollPercentage);
-    };
-
-    const unsubscribeScroll = scrollYProgress.onChange(handleScroll);
-    return () => unsubscribeScroll();
-  }, [scrollYProgress]);
-
-  const [scrollProgress, setScrollProgress] = useState(0);
+  const { scrollYProgress } = useScroll();
 
   const handleExploreCars = () => {
     carsRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -41,19 +29,10 @@ const LandingPage = () => {
 
   return (
     <>
-      <div className="scroll-indicator">
-        <svg width="100%" height="100%">
-          <motion.rect
-            x="0"
-            y="0"
-            width="100%"
-            height="100%"
-            fill="black"
-            initial={{ scaleX: 0 }}
-            animate={{ scaleX: scrollProgress / 100 }}
-          />
-        </svg>
-      </div>
+      <motion.path
+        d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
+        style={{ pathLength: scrollYProgress }}
+      />
 
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <div className="LandingPage">
@@ -63,7 +42,7 @@ const LandingPage = () => {
             <div className="buttons">
               <button onClick={handleExploreCars}>Explore Cars</button>
               <Link to={'/available'}>
-                <button style={{ marginLeft: '30px' }}>Find Available Cars</button>
+                <button style={{marginLeft: '30px'}}>Find Available Cars</button>
               </Link>
             </div>
           </div>
